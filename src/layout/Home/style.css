@@ -1,0 +1,31 @@
+.title {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+
+.sub-title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+
+.container {
+  padding: 0 15%;
+}
+
+.media {
+  display: flex;
+  gap: 12px;
+}
+
+.media a {
+  /* text-decoration: none; */
+  color: #fefefe;
+}
+
+@media (width < 720px) {
+  .container {
+    padding: 0 5%;
+  }
+}
