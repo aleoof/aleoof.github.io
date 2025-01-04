@@ -16,7 +16,7 @@
     <h2 class="subtitle neon">Front End Developer</h2>
     <div class="media">
       {#each socialList as social}
-      <a href={social.link} target="_blank">
+      <a href={social.link} target="_blank" class="neon-svg">
         {#if social.id === "linkedin"}
         <Linkedin/>
         {:else if social.id === "email"}

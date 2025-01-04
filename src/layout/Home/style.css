@@ -40,9 +40,16 @@
   animation: blink linear 2s;
 }
 
+.neon-svg {
+  color: #fff;
+  filter: drop-shadow(0px 0px 3px #0ff);
+  animation: blink linear 2s;
+}
+
 @keyframes blink {
   78% {
     color: inherit;
+    filter: inherit;
     text-shadow: inherit;
   }
 
