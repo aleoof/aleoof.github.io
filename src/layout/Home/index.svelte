@@ -12,8 +12,8 @@
 <div class="content">
 <div class="container" >
 
-    <h1 class="title">Alexandre Oliveira</h1>
-    <h2 class="subtitle">Front End Developer</h2>
+    <h1 class="title neon">Alexandre Oliveira</h1>
+    <h2 class="subtitle neon">Front End Developer</h2>
     <div class="media">
       {#each socialList as social}
       <a href={social.link} target="_blank">
