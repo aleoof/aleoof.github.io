@@ -9,20 +9,23 @@
     { id:"github", link:"https://github.com/aleoof"},
     ]
 </script>
+<div class="content">
 <div class="container" >
-  <h1 class="title">Alexandre Oliveira</h1>
-  <h2 class="subtitle">Front End Developer</h2>
-  <div class="media">
-    {#each socialList as social}
+
+    <h1 class="title">Alexandre Oliveira</h1>
+    <h2 class="subtitle">Front End Developer</h2>
+    <div class="media">
+      {#each socialList as social}
       <a href={social.link} target="_blank">
-      {#if social.id === "linkedin"}
-          <Linkedin/>
+        {#if social.id === "linkedin"}
+        <Linkedin/>
         {:else if social.id === "email"}
           <Email/>
         {:else if social.id === "github"}
-          <Github/>
+        <Github/>
         {/if}
       </a>
-    {/each}
+      {/each}
+    </div>
   </div>
 </div>
