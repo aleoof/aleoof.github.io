@@ -1,3 +1,5 @@
-<script>import '../global.css'</script>
-
-<slot/>
+<script>
+import '../global.css';
+export const prerender = true;
+</script>
+<slot />
