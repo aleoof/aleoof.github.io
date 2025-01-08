@@ -24,16 +24,6 @@
   justify-content: center;
 }
 
-.media {
-  display: flex;
-  gap: 12px;
-  margin-top: 10px;
-}
-
-.media a {
-  color: #fefefe;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -48,29 +38,6 @@
     0 0 2px #fff,
     0 0 10px #0ff;
   animation: blink linear 2s;
-}
-
-.neon-svg {
-  color: #fff;
-  filter: drop-shadow(0px 0px 3px #0ff);
-  animation: blink linear 2s;
-}
-
-.frame {
-  background-color: rgb(17, 124, 92);
-  height: 250px;
-  width: 270px;
-  border-radius: 16px;
-  position: relative;
-  box-shadow: 0px 10px 30px rgb(97, 5, 109);
-}
-
-.image-icon {
-  position: absolute;
-  top: -20px;
-  left: calc(50% - 125px);
-  border-radius: 16px;
-  /* box-shadow: 0px 0px 50px rgb(61, 4, 68); */
 }
 
 @keyframes blink {
