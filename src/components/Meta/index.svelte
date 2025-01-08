@@ -7,7 +7,7 @@
 	/>
 	<meta
 		name="keywords"
-		content="developer, full-stack, front-end, back-end, javascript, golang, alexandre, oliveira"
+		content="developer, ful, stack, front, end, back, javascript, golang, alexandre, oliveira"
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="robots" content="index, follow" />
