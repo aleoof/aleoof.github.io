@@ -12,7 +12,7 @@
 			<h2 class="subtitle neon">
 				<strong> Full Stack Developer</strong>
 			</h2>
-			<h1 class="title neon">Alexandre Oliveira</h1>
+			<h1 class="title neon"><strong>Alexandre Oliveira</strong></h1>
 			<Media />
 		</div>
 		<div>

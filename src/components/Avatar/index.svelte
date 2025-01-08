@@ -4,7 +4,7 @@
 
 <div class="frame">
 	<img
-		alt="developer"
+		alt="Developer Alexandre Oliveira"
 		class="image-icon"
 		height="250px"
 		width="250px"
