@@ -2,15 +2,10 @@
 	import './style.css';
 	import Media from '../../components/Media/index.svelte';
 	import Avatar from '../../components/Avatar/index.svelte';
+	import Meta from '../../components/Meta/index.svelte';
 </script>
 
-<svelte:head>
-	<title>Alexandre Oliveira</title>
-	<meta
-		name="description"
-		content="Alexandre Oliveira Full Stack Web Developer "
-	/>
-</svelte:head>
+<Meta />
 <div class="content">
 	<div class="container">
 		<div class="copy">
