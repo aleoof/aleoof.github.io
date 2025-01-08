@@ -9,10 +9,8 @@
 <div class="content">
 	<div class="container">
 		<div class="copy">
-			<h2 class="subtitle neon">
-				<strong> Full Stack Developer</strong>
-			</h2>
-			<h1 class="title neon"><strong>Alexandre Oliveira</strong></h1>
+			<h2 class="subtitle neon">Full Stack Developer</h2>
+			<h1 class="title neon">Alexandre Oliveira</h1>
 			<Media />
 		</div>
 		<div>
