@@ -5,17 +5,9 @@
 }
 
 
-.sub-title {
+.subtitle {
   font-size: 24px;
   line-height: 32px;
-}
-
-
-.container {
-  padding: 0 15%;
-  display: flex;
-  gap: 200px;
-  justify-content: center;
 }
 
 .copy {
@@ -24,12 +16,6 @@
   justify-content: center;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
 
 .neon {
   color: #fff;
@@ -83,14 +69,6 @@
 }
 
 @media (width < 720px) {
-  .container {
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 100px;
-  }
-
   .title {
     font-size: 32px;
     align-self: center;
